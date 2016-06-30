@@ -15,6 +15,10 @@
 		3270B7D71D24B932000449A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270B7D51D24B932000449A9 /* LaunchScreen.storyboard */; };
 		3270B7E21D24B932000449A9 /* TLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270B7E11D24B932000449A9 /* TLoadingViewTests.m */; };
 		3270B7ED1D24B932000449A9 /* TLoadingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270B7EC1D24B932000449A9 /* TLoadingViewUITests.m */; };
+		3270B7FC1D24B96C000449A9 /* TLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270B7FB1D24B96C000449A9 /* TLoadingView.m */; };
+		3270B8001D24DBF1000449A9 /* chacha.png in Resources */ = {isa = PBXBuildFile; fileRef = 3270B7FD1D24DBF1000449A9 /* chacha.png */; };
+		3270B8011D24DBF1000449A9 /* chacha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3270B7FE1D24DBF1000449A9 /* chacha@2x.png */; };
+		3270B8021D24DBF1000449A9 /* chacha@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3270B7FF1D24DBF1000449A9 /* chacha@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		3270B7E81D24B932000449A9 /* TLoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3270B7EC1D24B932000449A9 /* TLoadingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLoadingViewUITests.m; sourceTree = "<group>"; };
 		3270B7EE1D24B932000449A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3270B7FA1D24B96C000449A9 /* TLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLoadingView.h; sourceTree = "<group>"; };
+		3270B7FB1D24B96C000449A9 /* TLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLoadingView.m; sourceTree = "<group>"; };
+		3270B7FD1D24DBF1000449A9 /* chacha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chacha.png; sourceTree = "<group>"; };
+		3270B7FE1D24DBF1000449A9 /* chacha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chacha@2x.png"; sourceTree = "<group>"; };
+		3270B7FF1D24DBF1000449A9 /* chacha@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chacha@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,15 @@
 		3270B7C61D24B931000449A9 /* TLoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				3270B7FD1D24DBF1000449A9 /* chacha.png */,
+				3270B7FE1D24DBF1000449A9 /* chacha@2x.png */,
+				3270B7FF1D24DBF1000449A9 /* chacha@3x.png */,
 				3270B7CA1D24B931000449A9 /* AppDelegate.h */,
 				3270B7CB1D24B931000449A9 /* AppDelegate.m */,
 				3270B7CD1D24B931000449A9 /* ViewController.h */,
 				3270B7CE1D24B931000449A9 /* ViewController.m */,
+				3270B7FA1D24B96C000449A9 /* TLoadingView.h */,
+				3270B7FB1D24B96C000449A9 /* TLoadingView.m */,
 				3270B7D01D24B932000449A9 /* Main.storyboard */,
 				3270B7D31D24B932000449A9 /* Assets.xcassets */,
 				3270B7D51D24B932000449A9 /* LaunchScreen.storyboard */,
@@ -244,6 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3270B7D71D24B932000449A9 /* LaunchScreen.storyboard in Resources */,
+				3270B8021D24DBF1000449A9 /* chacha@3x.png in Resources */,
+				3270B8001D24DBF1000449A9 /* chacha.png in Resources */,
+				3270B8011D24DBF1000449A9 /* chacha@2x.png in Resources */,
 				3270B7D41D24B932000449A9 /* Assets.xcassets in Resources */,
 				3270B7D21D24B932000449A9 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +289,7 @@
 			files = (
 				3270B7CF1D24B931000449A9 /* ViewController.m in Sources */,
 				3270B7CC1D24B931000449A9 /* AppDelegate.m in Sources */,
+				3270B7FC1D24B96C000449A9 /* TLoadingView.m in Sources */,
 				3270B7C91D24B931000449A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
